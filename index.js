@@ -81,6 +81,7 @@ wrapper.appendChild(widget);
 containerBody.appendChild(wrapper);
 
 const blockAllMessages = document.createElement("div");
+blockAllMessages.style.paddingLeft="100px"
 blockAllMessages.style.display = "none";
 
 renderMessages(messages, blockAllMessages, unread);
